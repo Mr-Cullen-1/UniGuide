@@ -1,0 +1,100 @@
+/* Core styles */
+.container {
+    width: 1140px;
+}
+
+.spacebelow{
+    margin-top: 50px;
+}
+
+/* Custom CSS for the navbar */
+.navbar {
+    background-color: #f8f9fa;
+    /* Background color */
+    padding: 10px 0;
+    /* Padding */
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    /* Logo font size */
+    font-weight: bold;
+    /* Logo font weight */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+    /* Margin between navbar items */
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+    /* Link color */
+    font-weight: 500;
+    /* Link font weight */
+    transition: color 0.3s ease;
+    /* Smooth color transition */
+    font-size: 15px;
+    /* Font size */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+    /* Link color on hover */
+}
+
+/* Minimalistic styles for the navbar dropdown */
+.navbar-nav .dropdown-menu {
+    background-color: #fff;
+    /* Dropdown background color */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    /* Dropdown shadow */
+}
+
+.navbar-nav .dropdown-item {
+    color: #343a40;
+    /* Dropdown item color */
+    font-size: 15px;
+    /* Font size */
+}
+
+.navbar-nav .dropdown-item:hover,
+.navbar-nav .dropdown-item:focus {
+    background-color: #f8f9fa;
+    /* Background color on hover/focus */
+    color: #007bff;
+    /* Text color on hover/focus */
+}
+
+/* Information section styles */
+.content {
+    margin: 10px;
+    padding: 20px;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.description {
+    flex: 1;
+}
+
+.description h2 {
+    margin-top: 0;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.6;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Favicon (optional) -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.svg">
+    <!-- Custom Fonts (if any) -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <!-- Logo with link to home section -->
+            <a class="navbar-brand" href="#home">
+                <img src="./assets/images/logomain.png" alt="Your Logo" width="50px" height="50px">
+            </a>
+
+            <!-- Navbar toggler button for mobile -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <!-- About Universities dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="about-universities-dropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About Universities
+                        </a>
+                        <!-- Dropdown menu -->
+                        <div class="dropdown-menu" aria-labelledby="about-universities-dropdown">
+                            <a class="dropdown-item" href="university-directory.html">University Directory</a>
+                            <a class="dropdown-item" href="comparison-tool.html">Comparison Tool</a>
+                            <a class="dropdown-item" href="application-guidance.html">Application Guidance</a>
+                            <a class="dropdown-item" href="virtual-tours.html">Virtual Tours</a>
+                            <a class="dropdown-item" href="blog-and-resources.html">Blog and Resources</a>
+                            <a class="dropdown-item" href="scholarships-and-financial-aid.html">Scholarships and
+                                Financial Aid</a>
+                            <a class="dropdown-item" href="reviews-and-ratings.html">Ratings</a>
+                            <a class="dropdown-item" href="partners-and-advertisers.html">Partners and Advertisers</a>
+                        </div>
+                    </li>
+                    <!-- Contact and Support section link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#support-and-contact">Contact and Support</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Information Section -->
+        <div class="content">
+            <div class="info-section">
+                <img src="assets/images/logomain.png" alt="Logo" class="logo">
+                <div class="description">
+                    <h2>Welcome to Our Website</h2>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dui nec purus euismod
+                        fermentum
+                        sed
+                        sit amet ex. Sed a ipsum consequat, finibus nisl id, porta elit. Donec ac felis mauris.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (required for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper.js (required for Bootstrap's dropdowns) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
